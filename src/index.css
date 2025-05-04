@@ -216,7 +216,7 @@ p {
 }
 
 .nav-menu li a:hover {
-  color: var(--light-pink); /* Purple hover color */
+  color: var(--deep-purple); /* Purple hover color */
 }
 
 .nav-menu li a::after {
@@ -226,7 +226,7 @@ p {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: var(--light-pink); /* Pink underline */
+  background-color: var(--deep-purple); /* Pink underline */
   transition: width 0.3s ease;
 }
 
