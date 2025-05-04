@@ -70,12 +70,12 @@ const Contact = () => {
             <div className="contact-details">
               <div className="contact-item">
                 <i className="icon-email"></i>
-                <span>youremail@example.com</span>
+                <span>ravindimandari@gmail.com</span>
               </div>
-              <div className="contact-item">
+              {/* <div className="contact-item">
                 <i className="icon-location"></i>
                 <span>City, Country</span>
-              </div>
+              </div> */}
             </div>
             
             <div className="social-links">

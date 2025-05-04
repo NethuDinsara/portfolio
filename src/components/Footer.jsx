@@ -26,8 +26,8 @@ const Footer = () => {
           </div>
           
           <div className="footer-bottom">
-            <p>&copy; {currentYear} YourName. All Rights Reserved.</p>
-            <p>Made with ❤️ and React</p>
+            <p>&copy; {currentYear} RavindiSatharasinghe. All Rights Reserved.</p>
+            {/* <p>Made with ❤️ and React</p> */}
           </div>
         </div>
       </footer>
