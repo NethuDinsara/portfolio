@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import GreenAura from '../assets/images/GrAu.png'
+import Alpha from '../assets/images/alpha.png'
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -48,10 +49,10 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "An interactive weather dashboard showing current conditions and forecasts using third-party API integration.",
-      technologies: ["JavaScript", "OpenWeather API", "Chart.js", "HTML/CSS"],
-      image: "/api/placeholder/400/250",
+      title: "Alpha Medi Lab Landing Page",
+      description: "An interactive marketing page for a medical laboratory to show the relevant packages,their portfolio ,services and testamonials",
+      technologies: ["JavaScript", "React", "HTML/CSS"],
+      image: Alpha,
       category: "software",
       link: "#"
     },
