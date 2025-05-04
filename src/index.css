@@ -36,8 +36,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  height: 3px;
-  background-color: var(--light-pink);
+  height: 8px;
+  background-color: var(--deep-purple);
   z-index: 100;
 }
 
@@ -53,7 +53,7 @@ h1, h2, h3, h4 {
 
 h2 {
   font-size: 2.5rem;
-  color: var(--primary-purple);
+  color: var(--deep-purple);
 }
 
 p {
@@ -75,17 +75,19 @@ p {
 }
 
 .btn:hover {
-  background-color: rgba(157, 80, 187, 0.1);
+  background-color: var(--deep-purple);
+  color: var(--white);
   transform: translateY(-3px);
 }
 
 .btn-filled {
-  background-color: var(--light-pink);
-  color: var(--deep-purple);
+  background-color: var(--deep-purple);
+  color: var(--white);
 }
 
 .btn-filled:hover {
-  background-color: var(--lavender);
+  background-color: var(--white);
+  color: var(--deep-purple);
 }
 
 .section-title {
@@ -264,7 +266,7 @@ p {
 }
 
 .intro {
-  color: var(--light-purple); /* Light purple for intro */
+  color: var(--deep-purple); /* Light purple for intro */
   font-size: 1.2rem;
   margin-bottom: 10px;
 }
@@ -277,7 +279,7 @@ p {
 
 .subtitle {
   font-size: 2.5rem;
-  color: var(--primary-purple); /* Main purple for subtitle */
+  color: var(--deep-purple); /* Main purple for subtitle */
   margin-bottom: 20px;
 }
 
@@ -399,7 +401,7 @@ p {
 }
 
 .skill-group h3 {
-  color: var(--light-pink); /* Pink for skill group titles */
+  color: var(--white); /* Pink for skill group titles */
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
@@ -460,9 +462,9 @@ p {
 }
 
 .filter-btn:hover, .filter-btn.active {
-  background-color: var(--light-pink);
+  background-color: var(--deep-purple);
   color: var(--white);
-  border-color: var(--light-pink);
+  border-color: var(--white);
 }
 
 .projects-grid {
@@ -710,8 +712,8 @@ p {
 }
 
 .social-link:hover {
-  color: var(--light-purple);
-  background-color: rgba(195, 129, 217, 0.1); /* Light purple hover */
+  color: var(--white);
+  background-color: var(--deep-purple)
 }
 
 .contact-form-container {
@@ -763,7 +765,7 @@ p {
 
 /* Footer Styles */
 .footer {
-  background-color: var(--light-purple);
+  background-color: var(--deep-purple);
   padding: 50px 10% 20px;
 }
 
@@ -781,7 +783,7 @@ p {
 }
 
 .footer-logo a {
-  color: var(--light-pink);
+  color: var(--white);
   font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
@@ -793,13 +795,13 @@ p {
 }
 
 .footer-links a {
-  color: var(--text-dark);
+  color: var(--primary-purple);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
-  color: var(--primary-purple);
+  color: var(--white);
 }
 
 .footer-social {
@@ -808,7 +810,7 @@ p {
 }
 
 .social-icon {
-  color: var(--deep-purple);
+  color: var(--white);
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -824,7 +826,7 @@ p {
 }
 
 .footer-bottom p {
-  color: var(--text-dark);
+  color: var(--white);
   font-size: 0.9rem;
   margin-bottom: 5px;
 }
@@ -874,7 +876,7 @@ p {
     top: 0;
     right: -100%;
     flex-direction: column;
-    background-color: var(--light-purple);
+    background-color: var(--deep-purple);
     width: 70%;
     height: 100vh;
     padding: 80px 0;
