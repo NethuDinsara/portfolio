@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container">
-        <a href="#home" className="logo">YourName</a>
+        <a href="#home" className="logo">Ravindi Satharasinghe</a>
         
         <div className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <div className="bar"></div>
