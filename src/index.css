@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background-color: var(--lavender); /* Light background */
+  background-color: var(--white); /* Light background */
   color: var(--text-dark);
   overflow-x: hidden;
 }
@@ -170,7 +170,9 @@ p {
   padding: 0 10%;
   z-index: 99;
   transition: all 0.3s ease;
-  background-color: rgba(157, 80, 187, 0.8); /* Semi-transparent purple */
+  background-color: (--white);
+
+  /* background-color: rgba(157, 80, 187, 0.8); Semi-transparent purple */
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(157, 80, 187, 0.2); /* Subtle border */
 }
@@ -191,7 +193,7 @@ p {
 .logo {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--light-pink); /* Using light pink for the logo */
+  color: var(--deep-purple); /* Using light pink for the logo */
   text-decoration: none;
 }
 
@@ -214,7 +216,7 @@ p {
 }
 
 .nav-menu li a:hover {
-  color: var(--primary-purple); /* Purple hover color */
+  color: var(--light-pink); /* Purple hover color */
 }
 
 .nav-menu li a::after {
@@ -252,7 +254,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding-top: 120px;
-  background: linear-gradient(135deg, var(--lavender) 0%, var(--lavender) 100%);
+  background: linear-gradient(135deg, var(--white) 0%, var(--white) 100%);
   color: var(--text-dark);
 }
 
