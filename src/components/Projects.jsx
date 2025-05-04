@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
+import GreenAura from '../assets/images/GrAu.png'
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -29,21 +30,21 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce platform with user authentication, product catalog, and payment integration.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      title: "Babble-app",
+      description: "A digitalized mobile platform for kids with speaking challenges inlcuding features such as flashcards, progress predictive models, scenario building",
+      technologies: ["React Native", "Node.js", "MongoDB", "ML integrations"],
       image: "/api/placeholder/400/250",
       category: "software",
       link: "#"
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "Green Aura UI UX",
       description: "A responsive task management application with drag-and-drop functionality, filters, and team collaboration features.",
       technologies: ["React", "Redux", "Firebase", "TailwindCSS"],
-      image: "/api/placeholder/400/250",
-      category: "software",
-      link: "#"
+      image: GreenAura,
+      category: "design",
+      link: "https://www.figma.com/proto/ULtFkhBBVdJrZ9qC5BLBFS/IX-097_The-UXperts?node-id=227-718&starting-point-node-id=208%3A693&t=b6IDa5VIfy6GCv2z-1"
     },
     {
       id: 3,
