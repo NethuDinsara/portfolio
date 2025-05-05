@@ -42,7 +42,7 @@ const Projects = () => {
       id: 2,
       title: "Green Aura UI UX",
       description: "A responsive task management application with drag-and-drop functionality, filters, and team collaboration features.",
-      technologies: ["React", "Redux",  "TailwindCSS"],
+      technologies: ["Figma", "User Research", "Wireframing", "Prototyping"],
       image: GreenAura,
       category: "design",
       link: "https://www.figma.com/proto/ULtFkhBBVdJrZ9qC5BLBFS/IX-097_The-UXperts?node-id=227-718&starting-point-node-id=208%3A693&t=b6IDa5VIfy6GCv2z-1"
@@ -78,7 +78,7 @@ const Projects = () => {
       id: 6,
       title: "Plane Ticketing Management System",
       description: "Redesign of an existing web application to improve user experience, accessibility, and visual appeal.",
-      technologies: ["Figma", "User Research", "Wireframing", "Prototyping"],
+      technologies: ["Java, FX"],
       image: "/api/placeholder/400/250",
       category: "design",
       link: "#"
