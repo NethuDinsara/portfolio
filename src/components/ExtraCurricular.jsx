@@ -30,25 +30,25 @@ const ExtraCurricular = () => {
     extracurricular: [
       {
         id: 1,
-        title: "Hackathon Participant",
-        organization: "TechFest 2023",
-        period: "March 2023",
+        title: "Director of Social Media & Content Strategy",
+        organization: "Sundown Motor Fest 25 - Leo Club of Homagama Central",
+        period: "February 2025",
         description: "Participated in a 48-hour hackathon where my team developed a sustainability tracking application that won the 'Most Innovative Solution' award.",
         image: "/api/placeholder/300/200"
       },
       {
         id: 2,
-        title: "Women in Tech Club",
-        organization: "University Tech Club",
-        period: "2022 - Present",
+        title: "Dancer - Finalist",
+        organization: "Stage Craft , IIT",
+        period: "Sep 2023 - Feb 2023",
         description: "Active member of the university's Women in Tech club, participating in workshops, mentorship programs, and networking events.",
         image: "/api/placeholder/300/200"
       },
       {
         id: 3,
-        title: "Programming Competition",
-        organization: "CodeJam 2022",
-        period: "November 2022",
+        title: "Secretary - English Literary Association",
+        organization: "Sirimavo Bandaranayake Vidyalaya, Colombo",
+        period: "2020 - 2023",
         description: "Reached the semifinals in a national coding competition, solving complex algorithmic problems under time constraints.",
         image: "/api/placeholder/300/200"
       }
@@ -56,25 +56,25 @@ const ExtraCurricular = () => {
     volunteering: [
       {
         id: 1,
-        title: "Code Instructor",
-        organization: "Girls Who Code",
-        period: "Summer 2023",
+        title: "Membership Chairperson",
+        organization: "Leo Club of Homagama Central",
+        period: "Aug 2024 - Present",
         description: "Volunteered as an instructor for an 8-week program teaching middle school girls the fundamentals of programming and web development.",
         image: "/api/placeholder/300/200"
       },
       {
         id: 2,
-        title: "Tech Workshop Facilitator",
-        organization: "Community Tech Hub",
-        period: "2022 - Present",
+        title: "Public Relations Team",
+        organization: "AIESEC of IIT",
+        period: "Aug 2024 - Feb 2025",
         description: "Conduct monthly workshops for senior citizens on using technology for everyday tasks, improving digital literacy in the community.",
         image: "/api/placeholder/300/200"
       },
       {
         id: 3,
-        title: "Website Developer",
-        organization: "Local Animal Shelter",
-        period: "April 2023",
+        title: "Member",
+        organization: "Rotaract Club of IIT",
+        period: "Sep 2023 - Feb 2023",
         description: "Designed and developed a new website for a local animal shelter to improve their online presence and streamline the adoption process.",
         image: "/api/placeholder/300/200"
       }

@@ -79,9 +79,9 @@ const Contact = () => {
             </div>
             
             <div className="social-links">
-              <a href="#" className="social-link">GitHub</a>
-              <a href="#" className="social-link">LinkedIn</a>
-              <a href="#" className="social-link">Twitter</a>
+              <a href="https://github.com/ravindimandari" className="social-link">GitHub</a>
+              <a href="https://www.linkedin.com/in/mandari-satharasinghe-3a6b18267/" className="social-link">LinkedIn</a>
+            
             </div>
           </div>
           

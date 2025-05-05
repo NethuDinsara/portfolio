@@ -1,10 +1,10 @@
 /* Fully Refined CSS for a Feminine Purple Themed Portfolio */
 :root {
-  --primary-purple: #9D50BB; /* A main, vibrant purple */
-  --light-purple: #C381D9; /* A softer, lighter purple */
-  --lavender: #E0BBE4;   /* A very light, pastel purple */
-  --light-pink: #F8BBD0;  /* A gentle pink to complement purple */
-  --deep-purple: #7B1FA2;  /* A darker, richer purple for accents */
+  --primary-purple: #6371c2; /* A main, vibrant purple */
+  --light-purple: #b4d4f9; /* A softer, lighter purple */
+  --lavender: #85bcf6;   /* A very light, pastel purple */
+  --light-pink: #538cab;  /* A gentle pink to complement purple */
+  --deep-purple: #1f28a2;  /* A darker, richer purple for accents */
   --text-dark: #333;      /* Dark text color, can adjust if needed */
   --white: #f5f5f5;      /* Off-white for backgrounds and text */
   --teal: #4DB6AC;       /* Keeping a touch of teal for contrast if desired */
@@ -256,13 +256,13 @@ p {
   justify-content: space-between;
   align-items: center;
   padding-top: 120px;
-  background: linear-gradient(135deg, var(--white) 0%, var(--white) 100%);
+  /* background: linear-gradient(135deg, var(--white) 0%, var(--white) 100%); */
   color: var(--text-dark);
 }
 
 .hero-content {
   flex: 1;
-  max-width: 600px;
+  max-width: 1200px;
 }
 
 .intro {
@@ -306,7 +306,7 @@ p {
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  border: 2px solid var(--primary-purple);
+  /* border: 2px solid var(--primary-purple); */
 }
 
 .image-container::before {
@@ -316,7 +316,7 @@ p {
   left: 15px;
   width: 100%;
   height: 100%;
-  border: 2px solid var(--primary-purple);
+  /* border: 2px solid var(--primary-purple); */
   border-radius: 10px;
   z-index: -1;
   transition: all 0.3s ease;
@@ -392,7 +392,7 @@ p {
 }
 
 .skill-group {
-  background-color: var(--lavender); /* Softer purple for skill groups */
+  background-color: var(--light-purple); /* Softer purple for skill groups */
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(157, 80, 187, 0.1); /* Lighter purple shadow */
@@ -508,7 +508,7 @@ p {
 .project-overlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(157, 80, 187, 0.8); /* Semi-transparent purple overlay */
+  background-color: rgba(239, 251, 254, 0.8); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -572,7 +572,8 @@ p {
 }
 
 .tab-container {
-  background-color: var(--lavender);
+  
+  background-color: var(--light-purple);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(157, 80, 187, 0.1);
@@ -580,7 +581,7 @@ p {
 
 .tabs {
   display: flex;
-  background-color: var(--light-purple);
+  background-color: var(--lavender);
 }
 
 .tab-btn {
@@ -595,7 +596,7 @@ p {
 }
 
 .tab-btn.active {
-  background-color: var(--lavender);
+  background-color: var(--light-purple);
   color: var(--deep-purple);
   border-bottom: 2px solid var(--deep-purple);
 }

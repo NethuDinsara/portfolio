@@ -33,7 +33,7 @@ const Projects = () => {
       id: 1,
       title: "Babble-app",
       description: "A digitalized mobile platform for kids with speaking challenges inlcuding features such as flashcards, progress predictive models, scenario building",
-      technologies: ["React Native", "Node.js", "MongoDB", "ML integrations"],
+      technologies: ["React Native", "Node.js", "MongoDB", "ML integrations","Firebase"],
       image: "/api/placeholder/400/250",
       category: "software",
       link: "#"
@@ -42,7 +42,7 @@ const Projects = () => {
       id: 2,
       title: "Green Aura UI UX",
       description: "A responsive task management application with drag-and-drop functionality, filters, and team collaboration features.",
-      technologies: ["React", "Redux", "Firebase", "TailwindCSS"],
+      technologies: ["React", "Redux",  "TailwindCSS"],
       image: GreenAura,
       category: "design",
       link: "https://www.figma.com/proto/ULtFkhBBVdJrZ9qC5BLBFS/IX-097_The-UXperts?node-id=227-718&starting-point-node-id=208%3A693&t=b6IDa5VIfy6GCv2z-1"
@@ -58,25 +58,25 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Mobile App UI Design",
-      description: "A comprehensive UI design for a fitness tracking mobile application with user-friendly interface and visual elements.",
-      technologies: ["Figma", "Adobe Illustrator", "UI/UX Principles"],
+      title: "Real Time Ticketing System",
+      description: "A fullstack real time ticketing system including a ticketbooth and for vendors and customers",
+      technologies: ["SpringBoot","Angular","OOP","MySQL"],
       image: "/api/placeholder/400/250",
-      category: "design",
+      category: "Software",
       link: "#"
     },
     {
       id: 5,
-      title: "Brand Identity Design",
-      description: "Complete brand identity design including logo, color palette, typography, and brand guidelines for a tech startup.",
-      technologies: ["Adobe Illustrator", "Photoshop", "Brand Strategy"],
+      title: "Sustainable Development Goals Website",
+      description: "Complete Sustainalbe Development Goals related website for awareness,including main sitemaps and etc;",
+      technologies: ["HTML","CSS","JS"],
       image: "/api/placeholder/400/250",
-      category: "design",
+      category: "software",
       link: "#"
     },
     {
       id: 6,
-      title: "Web Application Redesign",
+      title: "Plane Ticketi Management System",
       description: "Redesign of an existing web application to improve user experience, accessibility, and visual appeal.",
       technologies: ["Figma", "User Research", "Wireframing", "Prototyping"],
       image: "/api/placeholder/400/250",

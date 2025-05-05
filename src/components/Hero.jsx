@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import lilyS from '../assets/images/lily.png'
 
 const Hero = () => {
   const nameRef = useRef(null);
@@ -22,7 +23,7 @@ const Hero = () => {
     <section id="home" className="hero">
       <div className="hero-content">
         <p className="intro fade-in" ref={nameRef}>Hi, my name is</p>
-        <h1 className="title fade-in" ref={roleRef}>Your Name</h1>
+        <h1 className="title fade-in" ref={roleRef}>Ravindi Satharasinghe</h1>
         <h2 className="subtitle fade-in" ref={descRef}>Software Engineer & Designer</h2>
         <p className="description fade-in" ref={descRef}>
           I'm a passionate software developer and designer with expertise in creating responsive 
@@ -35,7 +36,7 @@ const Hero = () => {
       </div>
       <div className="hero-image">
         <div className="image-container">
-          <img src="/api/placeholder/400/400" alt="Hero Image" />
+          <img src={lilyS} alt="Hero Image" />
         </div>
       </div>
     </section>

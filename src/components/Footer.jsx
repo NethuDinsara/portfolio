@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer-container">
           <div className="footer-content">
             <div className="footer-logo">
-              <a href="#home">RavindiSatharasinghepura</a>
+              <a href="#home">Ravindi Satharasinghe</a>
             </div>
             
             <div className="footer-links">
@@ -19,9 +19,9 @@ const Footer = () => {
             </div>
             
             <div className="footer-social">
-              <a href="#" className="social-icon">GitHub</a>
-              <a href="#" className="social-icon">LinkedIn</a>
-              <a href="#" className="social-icon">Twitter</a>
+              <a href="https://github.com/ravindimandari" className="social-icon">GitHub</a>
+              <a href="https://www.linkedin.com/in/mandari-satharasinghe-3a6b18267/" className="social-icon">LinkedIn</a>
+              <a href="#" className="social-icon">Instagram</a>
             </div>
           </div>
           
