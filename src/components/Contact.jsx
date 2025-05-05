@@ -62,10 +62,9 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             <h3>Let's Connect</h3>
-            {/* <p>
-              I'm currently looking for software engineering internship opportunities. If you have an opening
-              or just want to chat about tech, feel free to reach out!
-            </p> */}
+            <p>
+              Feel Free to reach out using given links.
+            </p>
             
             <div className="contact-details">
               <div className="contact-item">

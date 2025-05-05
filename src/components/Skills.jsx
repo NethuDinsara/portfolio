@@ -28,7 +28,7 @@ const Skills = () => {
   const skills = [
     { category: "Programming Languages", items: ["JavaScript", "Python", "Java", "C++", "HTML5", "CSS3"] },
     { category: "Frameworks & Libraries", items: ["React.js", "Node.js", "Express", "Vue.js", "TailwindCSS", "Bootstrap"] },
-    { category: "Tools & Technologies", items: ["Git", "GitHub", "VS Code", "Figma", "Adobe XD", "Docker"] },
+    { category: "Tools & Technologies", items: ["Git", "GitHub", "VS Code", "Figma","Canva"] },
     { category: "Other Skills", items: ["UI/UX Design", "Responsive Design", "RESTful APIs", "Database Design", "Problem Solving", "Agile Methodology"] }
   ];
 

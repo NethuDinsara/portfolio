@@ -258,11 +258,12 @@ p {
   padding-top: 120px;
   /* background: linear-gradient(135deg, var(--white) 0%, var(--white) 100%); */
   color: var(--text-dark);
+  
 }
 
 .hero-content {
   flex: 1;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .intro {
