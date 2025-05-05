@@ -1,6 +1,10 @@
 import { useState, useEffect, useRef } from 'react';
 import GreenAura from '../assets/images/GrAu.png'
 import Alpha from '../assets/images/alpha.png'
+import babble from '../assets/images/babbleF.png'
+import ticket from '../assets/images/ticket.png'
+import sdg from '../assets/images/sdgL.png'
+import plane from '../assets/images/plane.png'
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -34,9 +38,9 @@ const Projects = () => {
       title: "Babble-app",
       description: "A digitalized mobile platform for kids with speaking challenges inlcuding features such as flashcards, progress predictive models, scenario building",
       technologies: ["React Native", "Node.js", "MongoDB", "ML integrations","Firebase"],
-      image: "/api/placeholder/400/250",
+      image: babble,
       category: "software",
-      link: "#"
+      link: "https://infobabble.vercel.app/"
     },
     {
       id: 2,
@@ -54,32 +58,41 @@ const Projects = () => {
       technologies: ["JavaScript", "React", "HTML/CSS"],
       image: Alpha,
       category: "software",
-      link: "#"
+      link: "https://alpha-medi-lab.vercel.app/"
     },
     {
       id: 4,
       title: "Real Time Ticketing System",
-      description: "A fullstack real time ticketing system including a ticketbooth and for vendors and customers",
-      technologies: ["SpringBoot","Angular","OOP","MySQL"],
-      image: "/api/placeholder/400/250",
+      description: "A fullstack , concurrent, real time ticketing system including a ticketpool and for vendors and customers using multithreading",
+      technologies: ["SpringBoot","Angular","OOP","MySQL","MultiThreading"],
+      image: ticket,
       category: "Software",
-      link: "#"
+      link: ""
     },
     {
       id: 5,
       title: "Sustainable Development Goals Website",
       description: "Complete Sustainalbe Development Goals related website for awareness,including main sitemaps and etc;",
       technologies: ["HTML","CSS","JS"],
-      image: "/api/placeholder/400/250",
+      image: sdg,
       category: "software",
-      link: "#"
+      link: ""
     },
     {
       id: 6,
       title: "Plane Ticketing Management System",
-      description: "Redesign of an existing web application to improve user experience, accessibility, and visual appeal.",
+      description: "A plane ticket management system using java and java based fx as an academical project ",
       technologies: ["Java, FX"],
-      image: "/api/placeholder/400/250",
+      image: plane,
+      category: "software",
+      link: ""
+    },
+    {
+      id: 7,
+      title: "Babble-app-design",
+      description: "Wireframing and prototyping design in a digitalized platformed called babble-app for kids with speaking challenges.",
+      technologies: ["Figma, Prototyping, UI components"],
+      image: babble,
       category: "design",
       link: "#"
     }

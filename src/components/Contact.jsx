@@ -62,15 +62,15 @@ const Contact = () => {
         <div className="contact-content">
           <div className="contact-info">
             <h3>Let's Connect</h3>
-            <p>
+            {/* <p>
               I'm currently looking for software engineering internship opportunities. If you have an opening
               or just want to chat about tech, feel free to reach out!
-            </p>
+            </p> */}
             
             <div className="contact-details">
               <div className="contact-item">
                 <i className="icon-email"></i>
-                <span>ravindimandari@gmail.com</span>
+                {/* <span>ravindimandari@gmail.com</span> */}
               </div>
               {/* <div className="contact-item">
                 <i className="icon-location"></i>

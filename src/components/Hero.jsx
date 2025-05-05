@@ -27,8 +27,7 @@ const Hero = () => {
         <h2 className="subtitle fade-in" ref={descRef}>Software Engineer & Designer</h2>
         <p className="description fade-in" ref={descRef}>
           I'm a passionate software developer and designer with expertise in creating responsive 
-          and user-friendly applications. Currently looking for software engineering internship opportunities.
-        </p>
+          and user-friendly applications. </p>
         <div className="hero-buttons fade-in" ref={btnRef}>
           <a href="#projects" className="btn btn-filled">View My Work</a>
           <a href="#contact" className="btn">Contact Me</a>
