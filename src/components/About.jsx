@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import meStand from '../assets/images/meStand.png'
 
 const About = () => {
   const sectionRef = useRef(null);
@@ -48,9 +49,9 @@ const About = () => {
             </p>
           </div>
           <div className="about-image">
-            <div className="image-frame">
-              <img src="/api/placeholder/350/350" alt="About Me" />
-            </div>
+            {/* <div className="image-frame">
+              <img src={meStand} alt="About Me" />
+            </div> */}
           </div>
         </div>
       </div>
