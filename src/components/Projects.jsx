@@ -76,7 +76,7 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: "Plane Ticketi Management System",
+      title: "Plane Ticketing Management System",
       description: "Redesign of an existing web application to improve user experience, accessibility, and visual appeal.",
       technologies: ["Figma", "User Research", "Wireframing", "Prototyping"],
       image: "/api/placeholder/400/250",

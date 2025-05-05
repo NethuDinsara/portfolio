@@ -51,6 +51,22 @@ const ExtraCurricular = () => {
         period: "2020 - 2023",
         description: "Reached the semifinals in a national coding competition, solving complex algorithmic problems under time constraints.",
         image: "/api/placeholder/300/200"
+      },
+      {
+        id: 4,
+        title: "Batch Representative",
+        organization: "Rotaract Club of IIT",
+        period: "Sep 2024 - Feb 2025",
+        description: "Designed and developed a new website for a local animal shelter to improve their online presence and streamline the adoption process.",
+        image: "/api/placeholder/300/200"
+      },
+      {
+        id: 5,
+        title: "Senior Prefect",
+        organization: "Sujatha Vidyalaya, Nugegoda",
+        period: "2018 - 2019",
+        description: "Designed and developed a new website for a local animal shelter to improve their online presence and streamline the adoption process.",
+        image: "/api/placeholder/300/200"
       }
     ],
     volunteering: [
@@ -73,7 +89,7 @@ const ExtraCurricular = () => {
       {
         id: 3,
         title: "Member",
-        organization: "Rotaract Club of IIT",
+        organization: "Informatics Institute of Technology",
         period: "Sep 2023 - Feb 2023",
         description: "Designed and developed a new website for a local animal shelter to improve their online presence and streamline the adoption process.",
         image: "/api/placeholder/300/200"
