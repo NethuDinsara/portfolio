@@ -94,7 +94,7 @@ const Projects = () => {
       technologies: ["Figma, Prototyping, UI components"],
       image: babble,
       category: "design",
-      link: "#"
+      link: "https://www.figma.com/proto/q9GHYeKkbvfTynes07ac5m/Low-Fidelity-for-autism-app?node-id=1568-895&p=f&t=UjORvrjy7ljDrszl-1&scaling=scale-down&content-scaling=fixed&page-id=526%3A1770"
     }
   ];
 
