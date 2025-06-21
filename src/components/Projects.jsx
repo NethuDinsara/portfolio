@@ -5,6 +5,7 @@ import babble from '../assets/images/babbleF.png'
 import ticket from '../assets/images/ticket.png'
 import sdg from '../assets/images/sdgL.png'
 import plane from '../assets/images/plane.png'
+import SMF from '../assets/images/SDMF.png'
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -95,6 +96,15 @@ const Projects = () => {
       image: babble,
       category: "design",
       link: "https://www.figma.com/proto/q9GHYeKkbvfTynes07ac5m/Low-Fidelity-for-autism-app?node-id=1568-895&p=f&t=UjORvrjy7ljDrszl-1&scaling=scale-down&content-scaling=fixed&page-id=526%3A1770"
+    },
+    {
+      id: 8,
+      title: "PR for Sundown Motor Fest 25'",
+      description: "Strategizing the public relational content for Motor Fest, Making flyer,poster and logo designs",
+      technologies: ["Canva, DaVinci, UI"],
+      image: SMF,
+      category: "design",
+      link: "#"
     }
   ];
 
