@@ -79,7 +79,7 @@ const Contact = () => {
             
             <div className="social-links">
               <a href="https://github.com/ravindimandari" className="social-link">GitHub</a>
-              <a href="https://www.linkedin.com/in/mandari-satharasinghe-3a6b18267/" className="social-link">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/ravindi-mandari-satharasinghe-3a6b18267/" className="social-link">LinkedIn</a>
             
             </div>
           </div>
