@@ -35,7 +35,7 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 1,
+      id: 8,
       title: "Babble-app",
       description: "A digitalized mobile platform for kids with speaking challenges inlcuding features such as flashcards, progress predictive models, scenario building",
       technologies: ["React Native", "Node.js", "MongoDB", "ML integrations","Firebase"],
@@ -62,7 +62,7 @@ const Projects = () => {
       link: "https://alpha-medi-lab.vercel.app/"
     },
     {
-      id: 4,
+      id: 7,
       title: "Real Time Ticketing System",
       description: "A fullstack , concurrent, real time ticketing system including a ticketpool and for vendors and customers using multithreading",
       technologies: ["SpringBoot","Angular","OOP","MySQL","MultiThreading"],
@@ -89,7 +89,7 @@ const Projects = () => {
       link: ""
     },
     {
-      id: 7,
+      id: 4,
       title: "Babble-app-design",
       description: "Wireframing and prototyping design in a digitalized platformed called babble-app for kids with speaking challenges.",
       technologies: ["Figma, Prototyping, UI components"],
@@ -98,7 +98,7 @@ const Projects = () => {
       link: "https://www.figma.com/proto/q9GHYeKkbvfTynes07ac5m/Low-Fidelity-for-autism-app?node-id=1568-895&p=f&t=UjORvrjy7ljDrszl-1&scaling=scale-down&content-scaling=fixed&page-id=526%3A1770"
     },
     {
-      id: 8,
+      id: 1,
       title: "PR for Sundown Motor Fest 25'",
       description: "Strategizing the public relational content for Motor Fest, Making flyer,poster and logo designs",
       technologies: ["Canva, DaVinci, UI"],
