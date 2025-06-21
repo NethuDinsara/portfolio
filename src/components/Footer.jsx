@@ -20,7 +20,7 @@ const Footer = () => {
             
             <div className="footer-social">
               <a href="https://github.com/ravindimandari" className="social-icon">GitHub</a>
-              <a href="https://www.linkedin.com/in/mandari-satharasinghe-3a6b18267/" className="social-icon">LinkedIn</a>
+              <a href="https://www.linkedin.com/in/ravindi-mandari-satharasinghe-3a6b18267/" className="social-icon">LinkedIn</a>
               <a href="#" className="social-icon">Instagram</a>
             </div>
           </div>
