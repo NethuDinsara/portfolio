@@ -35,13 +35,13 @@ const Projects = () => {
 
   const projects = [
     {
-      id: 8,
-      title: "Babble-app",
-      description: "A digitalized mobile platform for kids with speaking challenges inlcuding features such as flashcards, progress predictive models, scenario building",
-      technologies: ["React Native", "Node.js", "MongoDB", "ML integrations","Firebase"],
-      image: babble,
-      category: "software",
-      link: "https://infobabble.vercel.app/"
+      id: 1,
+      title: "PR for Sundown Motor Fest 25'",
+      description: "Strategizing the public relational content for Motor Fest, Making flyer,poster and logo designs",
+      technologies: ["Canva, DaVinci, UI"],
+      image: SMF,
+      category: "design",
+      link: "#"
     },
     {
       id: 2,
@@ -54,42 +54,6 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Alpha Medi Lab Landing Page",
-      description: "An interactive marketing page for a medical laboratory to show the relevant packages,their portfolio ,services and testamonials",
-      technologies: ["JavaScript", "React", "HTML/CSS"],
-      image: Alpha,
-      category: "software",
-      link: "https://alpha-medi-lab.vercel.app/"
-    },
-    {
-      id: 7,
-      title: "Real Time Ticketing System",
-      description: "A fullstack , concurrent, real time ticketing system including a ticketpool and for vendors and customers using multithreading",
-      technologies: ["SpringBoot","Angular","OOP","MySQL","MultiThreading"],
-      image: ticket,
-      category: "Software",
-      link: ""
-    },
-    {
-      id: 5,
-      title: "Sustainable Development Goals Website",
-      description: "Complete Sustainalbe Development Goals related website for awareness,including main sitemaps and etc;",
-      technologies: ["HTML","CSS","JS"],
-      image: sdg,
-      category: "software",
-      link: ""
-    },
-    {
-      id: 6,
-      title: "Plane Ticketing Management System",
-      description: "A plane ticket management system using java and java based fx as an academical project ",
-      technologies: ["Java, FX"],
-      image: plane,
-      category: "software",
-      link: ""
-    },
-    {
-      id: 4,
       title: "Babble-app-design",
       description: "Wireframing and prototyping design in a digitalized platformed called babble-app for kids with speaking challenges.",
       technologies: ["Figma, Prototyping, UI components"],
@@ -98,14 +62,53 @@ const Projects = () => {
       link: "https://www.figma.com/proto/q9GHYeKkbvfTynes07ac5m/Low-Fidelity-for-autism-app?node-id=1568-895&p=f&t=UjORvrjy7ljDrszl-1&scaling=scale-down&content-scaling=fixed&page-id=526%3A1770"
     },
     {
-      id: 1,
-      title: "PR for Sundown Motor Fest 25'",
-      description: "Strategizing the public relational content for Motor Fest, Making flyer,poster and logo designs",
-      technologies: ["Canva, DaVinci, UI"],
-      image: SMF,
-      category: "design",
-      link: "#"
+      id: 4,
+      title: "Babble-app",
+      description: "A digitalized mobile platform for kids with speaking challenges inlcuding features such as flashcards, progress predictive models, scenario building",
+      technologies: ["React Native", "Node.js", "MongoDB", "ML integrations","Firebase"],
+      image: babble,
+      category: "software",
+      link: "https://infobabble.vercel.app/"
     }
+    ,
+    {
+      id: 5,
+      title: "Alpha Medi Lab Landing Page",
+      description: "An interactive marketing page for a medical laboratory to show the relevant packages,their portfolio ,services and testamonials",
+      technologies: ["JavaScript", "React", "HTML/CSS"],
+      image: Alpha,
+      category: "software",
+      link: "https://alpha-medi-lab.vercel.app/"
+    },
+    {
+      id: 6,
+      title: "Real Time Ticketing System",
+      description: "A fullstack , concurrent, real time ticketing system including a ticketpool and for vendors and customers using multithreading",
+      technologies: ["SpringBoot","Angular","OOP","MySQL","MultiThreading"],
+      image: ticket,
+      category: "Software",
+      link: ""
+    },
+    
+    {
+      id: 7,
+      title: "Sustainable Development Goals Website",
+      description: "Complete Sustainalbe Development Goals related website for awareness,including main sitemaps and etc;",
+      technologies: ["HTML","CSS","JS"],
+      image: sdg,
+      category: "software",
+      link: ""
+    },
+    {
+      id: 8,
+      title: "Plane Ticketing Management System",
+      description: "A plane ticket management system using java and java based fx as an academical project ",
+      technologies: ["Java, FX"],
+      image: plane,
+      category: "software",
+      link: ""
+    },
+    
   ];
 
   const filteredProjects = activeCategory === 'all' 
